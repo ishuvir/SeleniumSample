@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="AmazonfirstTC(failed)">
+    <classes>
+      <class name="src.newSeleniumTestLogin.LoginDone">
+        <methods>
+          <include name="LoginAmazon"/>
+          <include name="Initialize"/>
+          <include name="Close"/>
+          <include name="ReportSetup"/>
+          <include name="ReportDone"/>
+        </methods>
+      </class> <!-- src.newSeleniumTestLogin.LoginDone -->
+    </classes>
+  </test> <!-- AmazonfirstTC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
